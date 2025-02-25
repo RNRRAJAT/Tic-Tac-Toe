@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "Poppins", serif;
+    /* font-weight: 300;
+    font-style: normal; */
+    /* font-size: 5vh; */
+
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 10vh;
+}
+.name{
+    
+    font-size: 5vh;
+}
+.main{
+    position: relative;
+    /* background-color: red; */
+    /* width: 70vw; */
+    /* margin-top: 5vh; */
+    /* display: grid; */
+    /* grid-template-columns: 1; */
+    /* display: flex; */
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.row div{
+    width: 13vh;
+    height: 13vh;
+    /* border: 2px solid; */
+    /* text-align: center; */
+    /* padding: 5px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-justify: center; */
+    font-size: 5vh;
+}
+.n{
+    border: 2px solid;
+    cursor: pointer;
+}
+.n:hover{
+    background-color: rgb(250, 246, 246);
+}
+.n1{
+    border-left: none;
+    border-top: none;
+}
+.n2{
+    border-top: none;
+}
+.n3{
+    border-top: none;
+    border-right: none;
+}
+.n4{
+    border-left: none;
+}
+.n6{
+    border-right: none;
+}
+.n7{
+    border-left: none;
+    border-bottom: none;
+}
+.n8{
+    border-bottom: none;
+}
+.n9{
+    border-bottom: none;
+    border-right: none;
+}
+img{
+    /* display: none; */
+    margin-top: 4vh;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+.info{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    width: 80vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.infotext{
+    font-size: 4vh;
+}
+#reset{
+    position: absolute;
+    right: 0.8vw;
+    top: 1.5vh;
+    font-family: "Poppins", serif;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: rgb(245, 211, 241);
+}
+.line{
+    position: absolute;
+    height: 0.2vh;
+    width: 0vh;
+    background-color: brown;
+    transition: width 1s ease-in-out;
+    /* left: 5vh;
+    top: 7.5vh; */
+    /* transform: translate(5vh,20vh) rotate(45deg); */
+}
